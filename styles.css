@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 15px;
+    width: auto;
+    background-color: rgb(0, 255, 85);
+}
+ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ul a:hover{
+    color: rgb(184, 18, 18);
+}
+
+main{
+    display: flex;
+    
+}

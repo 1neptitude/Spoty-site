@@ -1,7 +1,28 @@
-body{
+:root{
+    --primary-boxcolor: rgba(236, 219, 197, 0.623);
+    --default-text-color: rgb(0,0,0);
+}
+
+body {
     padding: 0;
     margin: 0;
+    background: linear-gradient(-45deg, #04f54d, #09c3f1, #1d89e0, #074ccc);
+    background-size: 400% 400%;
+    animation: gradient 40s ease infinite;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 header {
     padding: 15px;
     width: auto;
@@ -26,13 +47,16 @@ ul a:hover{
 }
 
 main{
-    display: flex;
     padding: 3%;
+}
+
+#firstPage{
+    display: flex;
     gap: 3%;
 }
 
 .mainInfo{
-    background-color: rgb(236, 219, 197);
+    background-color: var(--primary-boxcolor);
     padding: 3%;
     border-radius: 50px;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
@@ -40,5 +64,80 @@ main{
 }
 
 .history{
-    
+    background-color: var(--primary-boxcolor);
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.5px;
+    line-height: 1.25em;
+}
+
+.map{
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.main-section{
+    background-color: var(--primary-boxcolor);
+    border-radius: 30px;
+    border: 1px solid rgb(5, 122, 87); 
+    display: flex;
+    gap: 1px;
+    justify-content: space-around;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text p{
+    margin: 1px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social img{
+    width: 20px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.social a{
+    text-decoration: none;
+    color: var(--default-text-color);
+}
+
+.social span{
+    display: flex;
+    gap: 10px;
+}
+
+.about{
+    margin: 3%;
+}
+
+.about-block{
+    background-color: var(--primary-boxcolor);
+    padding: 3%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.whoWeAre{
+    width: 70%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
 }

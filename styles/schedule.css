@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    display: block;
+    border-bottom: 3px solid #0a0885;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+
+.mainbox > div{
+    width: 100%;
+    padding: 1px;
+}
+
+.match{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #3f3e3ec0;
+    padding: 10px;
+}
+
+.time{
+    color: #580a55;
+}
+
+.date{
+    padding: 5px;
+    width: 200px;
+}
+
+.line{
+    width: 0;
+    border-right: 1px solid #33333331;
+}
+
+.liga{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.commands{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px;
+    width: 500px;
+}
+
+h3, p{
+    margin: 0;
+}
+
+h4{
+    font-size: 18px;
+    align-self: center;
+    margin: 0;
+    width: 150px;
+}
+
+.first, .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.vs{
+    font-size: 20px;
+    color: #952caaaa;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buy-tickets{
+    display: flex;
+    align-items: center;
+}
+
+.buy-tickets > a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    background-color: #fdc52c;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

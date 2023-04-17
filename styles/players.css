@@ -1,0 +1,136 @@
+h2{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(129, 20, 129);
+    margin-top: 50px;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+.player-card{
+    max-width: 470px;
+    max-height: 470px;
+    min-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 20px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.player-card > div{
+    background-color: #000000b2;
+    box-shadow: 0px -10px 10px 0px #000000b2;
+}
+
+.p1{
+    background-image: url(/news/img/players/terstegen.webp);
+    background-size: cover;
+}
+
+.p2{
+    background-image: url(/news/img/players/inaki.webp);
+    background-size: cover;
+}
+
+.p3{
+    background-image: url(/news/img/players/ronald.webp);
+    background-size: cover;
+}
+
+.p4{
+    background-image: url(/news/img/players/andreas.webp);
+    background-size: cover;
+}
+
+.p5{
+    background-image: url(/news/img/players/marcos.webp);
+    background-size: cover;
+}
+
+.p6{
+    background-image: url(/news/img/players/jordi.webp);
+    background-size: cover;
+}
+
+.p7{
+    background-image: url(/news/img/players/jules.webp);
+    background-size: cover;
+}
+
+.p8{
+    background-image: url(/news/img/players/eric.webp);
+    background-size: cover;
+}
+
+.p9{
+    background-image: url(/news/img/players/sergio.webp);
+    background-size: cover;
+}
+
+.p10{
+    background-image: url(/news/img/players/pedri.webp);
+    background-size: cover;
+}
+
+.p11{
+    background-image: url(/news/img/players/frank.webp);
+    background-size: cover;
+}
+
+.p12{
+    background-image: url(/news/img/players/roberto.webp);
+    background-size: cover;
+}
+
+.p13{
+    background-image: url(/news/img/players/dejong.webp);
+    background-size: cover;
+}
+
+.p14{
+    background-image: url(/news/img/players/gavi.webp);
+    background-size: cover;
+}
+
+.p15{
+    background-image: url(/news/img/players/ousmane.webp);
+    background-size: cover;
+}
+
+.p16{
+    background-image: url(/news/img/players/lewandowski.webp);
+    background-size: cover;
+}
+
+.p17{
+    background-image: url(/news/img/players/ansu.webp);
+    background-size: cover;
+}
+
+.p18{
+    background-image: url(/news/img/players/ferran.webp);
+    background-size: cover;
+}
+
+.p19{
+    background-image: url(/news/img/players/raphinha.webp);
+    background-size: cover;
+}
+
+.p20{
+    background-image: url(/news/img/players/xavi.webp);
+    background-size: cover;
+}

@@ -1,0 +1,51 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social img{
+    width: 20px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.social a{
+    text-decoration: none;
+    color: var(--default-text-color);
+}
+
+.social span{
+    display: flex;
+    gap: 10px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text p{
+    margin: 1px;
+}
+
+.map{
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.main-section{
+    background-color: var(--primary-boxcolor);
+    border-radius: 30px;
+    border: 1px solid rgb(5, 122, 87); 
+    display: flex;
+    gap: 1px;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}

@@ -1,0 +1,95 @@
+:root{
+    --primary-boxcolor: rgba(236, 219, 197, 0.623);
+    --default-text-color: rgb(0,0,0);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(-45deg, #04f54d, #09c3f1, #1d89e0, #074ccc);
+    background-size: 400% 400%;
+    animation: gradient 40s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    padding: 15px;
+    width: auto;
+    background-color: #181733;
+}
+ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+ul a:hover{
+    color: rgb(184, 18, 18);
+}
+
+main{
+    padding: 3%;
+}
+
+ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu > li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+a {
+    display: block;
+    padding: 10px 15px;
+    transition: .3s linear;
+}
+
+.submenu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    transition: .3s ease-in-out;
+}
+
+nav .submenu {
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    background: #154284;
+}
+
+nav ul li:hover .submenu {
+    transform: scaleY(1);
+}
+
+.submenu li a {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    color: white;
+    font-size: 15px;
+}

@@ -76,19 +76,24 @@ h4{
     text-align: right;
 }
 
-.vs{
+.score{
     font-size: 20px;
     color: #952caaaa;
     margin-top: auto;
     margin-bottom: auto;
+    background: linear-gradient(180deg,#2c4481 0,#181733);
+    padding: 5px 8px 5px 10px;
+    color: aliceblue;
+    font-size: 26px;
+    letter-spacing: 3px;
 }
 
-.buy-tickets{
+.watch{
     display: flex;
     align-items: center;
 }
 
-.buy-tickets > a{
+.watch > a{
     text-decoration: none;
     color: #000;
     display: block;

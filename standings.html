@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Sport News</title>
+    <link rel="stylesheet" href="styles/standings.css">
+    <title>FC Barcelona</title>
 </head>
 <body>
     <header>
-       <!--  <a href="./index.html"><img src="img/logo.svg" alt="Главная"></a> -->
+      <div class="wrapper">
+        <a href="./index.html"><img src="img/logo.png" alt="Главная" class="logo"></a>
+      </div>
         <nav>
             <ul class="topmenu">
               <li><a href="#" class="submenu-link">Навигация</div></a>
@@ -31,7 +34,131 @@
     </header>
 
     <main>
+        <div class="mainbox">
+          <div class="head">
+            <div>
+              <h1>Рейтинговая таблица</h1>
+              <p>Топ-5</p>
+            </div>
+
+            <div class="liga">
+              <img src="img/laliga.png" alt="Лига" width="80%">
+            </div>
+
+            <div>
+              <p>Последнее обновление:</p>
+              <p>00:15 Четверг 13 апреля</p>
+            </div>
+          </div>
+
+          <table width="100%">
+            <thead>
+              <tr>
+                <th width="8%">Позиция</th>
+                <th width="8%"></th>
+                <th width="30%">Команда</th>
+                <th width="8%">Очки</th>
+                <th width="8%">Кол-во<br>матчей</th>
+                <th width="8%">Победы</th>
+                <th width="8%">Ничьи</th>
+                <th width="8%">Поражения</th>
+                <th width="16%">Форма</th>
+              </tr>
+            </thead>
         
+            <tbody>
+              <tr class="firstpos">
+                <th width="8%">1</th>
+                <th width="8%"><img src="img/teamlogos/BCN.png" alt=""></th>
+                <th width="30%">FC Barcelona</th>
+                <th width="8%">76</th>
+                <th width="8%">31</th>
+                <th width="8%">24</th>
+                <th width="8%">4</th>
+                <th width="8%">3</th>
+                <th width="16%" class="form">
+                  <div class="win"><p>W</p></div>
+                  <div class="draw"><p>D</p></div>
+                  <div class="draw"><p>D</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="lose"><p>L</p></div>
+                </th>
+              </tr>
+
+              <tr>
+                <th width="8%">2</th>
+                <th width="8%"><img src="img/teamlogos/RMD.png" alt=""></th>
+                <th width="30%">Real Madrid</th>
+                <th width="8%">65</th>
+                <th width="8%">31</th>
+                <th width="8%">20</th>
+                <th width="8%">5</th>
+                <th width="8%">6</th>
+                <th width="16%" class="form">
+                  <div class="win"><p>W</p></div>
+                  <div class="lose"><p>L</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="lose"><p>L</p></div>
+                </th>
+              </tr>
+
+              <tr>
+                <th width="8%">3</th>
+                <th width="8%"><img src="img/teamlogos/ATM.png" alt=""></th>
+                <th width="30%">Atletico Madrid</th>
+                <th width="8%">63</th>
+                <th width="8%">31</th>
+                <th width="8%">19</th>
+                <th width="8%">6</th>
+                <th width="8%">6</th>
+                <th width="16%" class="form">
+                  <div class="win"><p>W</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="lose"><p>L</p></div>
+                  <div class="win"><p>W</p></div>
+                </th>
+              </tr>
+
+              <tr>
+                <th width="8%">4</th>
+                <th width="8%"><img src="img/teamlogos/RSO.png" alt=""></th>
+                <th width="30%">Real Sociedad</th>
+                <th width="8%">58</th>
+                <th width="8%">32</th>
+                <th width="8%">17</th>
+                <th width="8%">7</th>
+                <th width="8%">8</th>
+                <th width="16%" class="form">
+                  <div class="win"><p>W</p></div>
+                  <div class="lose"><p>L</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="draw"><p>D</p></div>
+                  <div class="win"><p>W</p></div>
+                </th>
+              </tr>
+
+              <tr>
+                <th width="8%">5</th>
+                <th width="8%"><img src="img/teamlogos/VIL.png" alt=""></th>
+                <th width="30%">Villarreal</th>
+                <th width="8%">50</th>
+                <th width="8%">31</th>
+                <th width="8%">15</th>
+                <th width="8%">5</th>
+                <th width="8%">11</th>
+                <th width="16%" class="form">
+                  <div class="win"><p>W</p></div>
+                  <div class="win"><p>W</p></div>
+                  <div class="lose"><p>L</p></div>
+                  <div class="lose"><p>L</p></div>
+                  <div class="win"><p>W</p></div>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
     </main>
 
 </body>

@@ -1,0 +1,26 @@
+.day{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-top: 10px solid #154284;
+    gap: 20px;
+}
+
+.date > div{
+    width: 120px;
+}
+
+.news > div{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.news{
+    width: 100%;
+    flex-wrap: nowrap;
+    border: none;
+}
+
+h2{
+    margin-top: 2px;
+}
